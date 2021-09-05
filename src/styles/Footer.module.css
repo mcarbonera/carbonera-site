@@ -1,0 +1,25 @@
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-top: solid 1px #00f8f8;
+    padding: 5px 20px;
+}
+
+.gitHubIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icone {
+    color: #0f0;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.autorGostosao:hover {
+    color: #0f0;
+}
