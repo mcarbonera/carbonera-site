@@ -15,8 +15,6 @@ export default function Sobre() {
           <div className={styles.tamanhoImagem}>
             <Figura src={IMAGE_URL} alt={'cara bonito'} />
           </div>
-          {/* 
-           */}
            <Animator animator={{ root: true }}>
             <div>
               <Button palette='success' className={styles.nomeDescricao}>
@@ -27,8 +25,6 @@ export default function Sobre() {
               </div>
             </div>
             </Animator>
-          {/* 
-          */}
         </div>
       </ArwesThemeProvider>
     </div>

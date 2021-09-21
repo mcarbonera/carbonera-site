@@ -6,7 +6,7 @@ export default function Video(props) {
     const generalAnimator = { duration: { enter: 200, exit: 200 } };
 
     return (
-        <ArwesThemeProvider>
+        <ArwesThemeProvider>    
             <StylesBaseline />
             <AnimatorGeneralProvider animator={generalAnimator}>
                 <Animator animator={{ manager: 'stagger', root: true }}>
@@ -17,9 +17,9 @@ export default function Video(props) {
                         smallLineLength={30}
                         hideShapes
                         hover
-                    >
+                        >
                         <Iframe url={props.url}
-                            width="450px"
+                            width="650px"
                             height="450px"
                             display="initial"
                             position="relative"

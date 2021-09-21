@@ -36,7 +36,7 @@ export default function Interesses() {
                         </Text>
                     </div>
                     <div className={styles.video}>
-                        <Video url="http://www.youtube.com/embed/PS3rdL_LvIc"></Video>
+                        <Video url="https://www.youtube.com/embed/PS3rdL_LvIc"></Video>
                     </div>
                 </div>
             </Animator>
