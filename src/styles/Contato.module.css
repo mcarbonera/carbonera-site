@@ -1,0 +1,31 @@
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.conteudo > div > a {
+    margin-left: 10px;
+}
+
+.estiloTitulo {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border-bottom: 2px solid yellow;
+    padding: 5px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    color: yellow;
+}
+
+.estiloTexto {
+    font-size: 1.3rem;
+    color: #0F0;
+    margin-top: 20px;
+    text-align: left;
+    margin: 0px;
+}
+
+.conteudo > div {
+    margin-right: 10px;
+}

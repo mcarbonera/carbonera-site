@@ -15,7 +15,7 @@ export default function Figura(props) {
   return (
       <ArwesThemeProvider>
         <AnimatorGeneralProvider animator={generalAnimator}>
-          <Animator animator={{ activate, manager: 'stagger' }}>
+          <Animator animator={{ manager: 'stagger', root: true }}>
             <Figure
               src={props.src}
               alt={props.alt}

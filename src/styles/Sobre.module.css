@@ -9,15 +9,17 @@
 }
 
 .estiloDescricao {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #0F0;
     margin-top: 20px;
-
+    text-align: center;
+    margin: 0px;
 }
 
 .nomeDescricao{
     cursor: default;
     background-color: aliceblue;
+    margin-bottom: 15px;
 }
 
 .nomeDescricao:hover {

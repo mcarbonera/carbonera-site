@@ -1,0 +1,30 @@
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.estiloTexto {
+    font-size: 1.3rem;
+    color: #0F0;
+    margin-top: 20px;
+    text-align: left;
+    margin: 0px;
+}
+
+.explicarInteresses {
+    text-align: justify;
+}
+
+.espacoMeio {
+    margin-top: 20px;
+}
+
+.highlight{
+    color: #0F0;
+}
+
+.video {
+    margin-top: 20px;
+    align-self: center;
+}
