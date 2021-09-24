@@ -16,12 +16,12 @@ export default function Contato() {
                     </div>
                     <div>
                         <Text className={styles.estiloTexto}>
-                            • Email: <a href = "mailto: marcelocarbonera@live.com">marcelocarbonera@live.com</a>
+                            • Email: <a className={styles.links} href = "mailto: marcelocarbonera@live.com">marcelocarbonera@live.com</a>
                         </Text>
                     </div>
                     <div>
                         <Text className={styles.estiloTexto}>
-                            • GitHub: <a href="https://github.com/mcarbonera">https://github.com/mcarbonera</a>
+                            • GitHub: <a className={styles.links} href="https://github.com/mcarbonera">https://github.com/mcarbonera</a>
                         </Text>
                     </div>  
                 </div>

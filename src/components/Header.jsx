@@ -1,8 +1,8 @@
 import BotaoNavegador from "./BotaoNavegador";
-import styles from '../styles/Cabecalho.module.css'
+import styles from '../styles/Header.module.css'
 import React from "react";
 
-export default function Cabecalho() {
+export default function Header() {
 
     const opcoesBotoes = [
         {
@@ -30,7 +30,11 @@ export default function Cabecalho() {
     return (
         <header className={styles.navegador}>
             {opcoesBotoes.map((elem, it) => {
-                return <BotaoNavegador key={it} texto={elem.texto} destino={elem.destino} />
+                return (
+                    <div key={it} className={styles.centralizar}>
+                        <BotaoNavegador key={it} texto={elem.texto} destino={elem.destino} />
+                    </div>
+                )
             })}
         </header>
     )

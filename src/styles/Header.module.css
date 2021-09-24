@@ -1,0 +1,23 @@
+.navegador {
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+.centralizar {
+    margin: 0px 15px;
+}
+
+@media only screen and (max-width: 815px) {
+    .navegador {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+
+        align-items: center;
+    }
+
+    .centralizar {
+        margin: 5px 0px;
+    }
+}

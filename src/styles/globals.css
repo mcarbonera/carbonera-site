@@ -38,29 +38,78 @@ body {
 
 .centralizaBox {
   display: flex;
-  justify-content: center;
-  
+  justify-content: space-around;
   overflow: auto;
   margin-bottom: 10px;
 }
 
 .cardCentral1 {
-  overflow: overlay;
-  width: 50vw;
+  display: inline-block;
+  margin-left: 0;
+  padding-left: 0;
+
+  width: 700px;
+}
+
+.frameBoxSize {
+  width: 100%;
 }
 
 .cardCentral2 {
-  display: flex;
   padding: 10px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 755px) {
+  .centralizaBox {
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+    margin-bottom: 10px;
+    
+    padding: 0 10px;    
+  }
+
+  .cardCentral1 {
+    display: inline-block;
+    justify-content: space-around;
+    width: 100vw;
+  }
   
-  width: calc(50vw - 35px);
+  .cardCentral2 {
+    display: inline;
+    padding: 10px;
+    
+    overflow: hidden;
+    width: 100%;
+  }
 }
 
-.borda {
-  border: solid 3px white;
-}
+@media only screen and (max-width: 370px) {
+  .centralizaBox {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    margin-bottom: 10px;
+    
+    width: 100vw;
 
-.imagem {
-  width: 50px;
-  height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .cardCentral1 {
+    display: inline-block;
+    justify-content: center;
+    width: 90vw;
+  }
+  
+  .cardCentral2 {
+    display: inline;
+    padding: 10px;
+    
+    overflow: hidden;
+    width: 100%;
+    width: 90vw;
+  }
 }

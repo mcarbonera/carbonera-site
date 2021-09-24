@@ -2,6 +2,8 @@ import { Animator, AnimatorGeneralProvider } from "@arwes/animation";
 import { ArwesThemeProvider, FrameLines, StylesBaseline } from "@arwes/core";
 import Iframe from "react-iframe";
 
+import styles from '../styles/Video.module.css'
+
 export default function Video(props) {
     const generalAnimator = { duration: { enter: 200, exit: 200 } };
 
@@ -18,11 +20,7 @@ export default function Video(props) {
                         hideShapes
                         hover
                         >
-                        <Iframe url={props.url}
-                            width="650px"
-                            height="450px"
-                            display="initial"
-                            position="relative"
+                        <Iframe url={props.url} className={styles.videoIFrame}
                             frameBorder="0"/>
                     </FrameLines>
                 </Animator>

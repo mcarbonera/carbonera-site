@@ -1,0 +1,14 @@
+.videoIFrame {
+    width: 610px;
+    height: 345px;
+
+    position: relative;
+}
+
+@media only screen and (max-width: 705px) {
+    .videoIFrame {
+        width: 80vw;
+        height: 45vw;
+        position: relative;
+    }   
+}

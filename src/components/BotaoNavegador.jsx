@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import styles from '../styles/BotaoNavegador.module.css'
 
 import React, { useState, useEffect } from 'react';
 import { Animator } from '@arwes/animation';
@@ -24,7 +23,7 @@ export default withRouter(function BotaoNavegador(props) {
     const router = useRouter()
 
     return (
-        <div className={styles.centralizar}>
+        <div>
         <ArwesThemeProvider>
             <StylesBaseline styles={{
                 body: { fontFamily: ROOT_FONT_FAMILY },

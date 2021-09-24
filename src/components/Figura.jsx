@@ -2,6 +2,8 @@ import { Animator, AnimatorGeneralProvider } from '@arwes/animation';
 import { ArwesThemeProvider, Figure } from '@arwes/core';
 import React from 'react'
 
+import styles from '../styles/Figura.module.css'
+
 export default function Figura(props) {
   
   const generalAnimator = { duration: { enter: 200, exit: 200 } };
@@ -16,10 +18,10 @@ export default function Figura(props) {
       <ArwesThemeProvider>
         <AnimatorGeneralProvider animator={generalAnimator}>
           <Animator animator={{ manager: 'stagger', root: true }}>
-            <Figure
+            <Figure className={styles.tamanhoFigura}
               src={props.src}
               alt={props.alt}
-              preload
+              fluid
               >
               {props.children}
             </Figure>

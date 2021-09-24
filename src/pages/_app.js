@@ -2,7 +2,7 @@ import { Animator } from '@arwes/animation'
 import { ArwesThemeProvider, StylesBaseline } from '@arwes/core'
 import { FrameBox } from '@arwes/core/lib/FrameBox/FrameBox.component'
 import React from 'react'
-import Cabecalho from '../components/Cabecalho'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../styles/globals.css'
 
@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
         <StylesBaseline />
           <Animator animator={{ animate: true }}>
             <div className="cardCentral1">
-              <FrameBox animator={{ animate: true }} palette="primary">
+              <FrameBox className="frameBoxSize" animator={{ animate: true }} palette="primary">
                 <div className="cardCentral2">
                   <Component {...pageProps} />
                 </div>
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <div className="posicaoPagina">
-      <Cabecalho></Cabecalho>
+      <Header></Header>
       {containerBox()}
       <Footer></Footer>
     </div>
