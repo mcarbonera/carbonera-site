@@ -22,7 +22,9 @@ export default function Sobre() {
                 <Text>Marcelo Carbonera</Text>
               </Button>
               <div className={styles.estiloDescricao}>
-                <Text>Engenheiro de Computação | Pedreiro High-Tech</Text>
+                <Text>Engenheiro de Computação | Backend | Frontend</Text>
+                <br/>
+                <Text>Interessado em Matemática, Automação e Robótica</Text>
               </div>
             </div>
             </Animator>

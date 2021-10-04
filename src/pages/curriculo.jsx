@@ -30,7 +30,7 @@ export default function Curriculo() {
                     </div>
                     <div>
                         <Text className={styles.espacoMeio}>
-                            • Outros frameworks que estudei, porém não trabalhei profissionalmente: 
+                            • Outras tecnologias / frameworks que estudei, porém não trabalhei profissionalmente: 
                             <ul className={styles.highlight}>
                                 <li>Node (Express)</li>
                                 <li>React</li>
