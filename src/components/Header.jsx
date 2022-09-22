@@ -18,10 +18,6 @@ export default function Header() {
             destino: "/curriculo",
         },
         {
-            texto: "Projetos",
-            destino: "/projetos",
-        },
-        {
             texto: "Interesses",
             destino: "/interesses",
         }
