@@ -30,19 +30,27 @@ export default function Curriculo() {
                     </div>
                     <div>
                         <Text className={styles.espacoMeio}>
-                            • Outras tecnologias / frameworks que estudei, porém não trabalhei profissionalmente: 
+                            • Pós-graduações (cursando):
                             <ul className={styles.highlight}>
-                                <li>Node (Express)</li>
-                                <li>React</li>
-                                <li>Next.js (este site *lindo* foi feito usando Next.js)</li>
-                                <li>Vue.js</li>
-                                <li>Electron.js</li>
+                                <li>Machine Learning in Production (UFSCAR)</li>
+                                <li>Programação para Dispositivos Móveis (UTFPR)</li>
                             </ul>
                         </Text>
                     </div>
                     <div>
+                        <Text className={styles.despedida}>
+                            → Para currículo completo, favor não entrar em contato! 
+                            Não estou mais disponível.
+                            Agora só quero saber de concursos públicos. 
+                        </Text>
                         <Text className={styles.espacoMeio}>
-                            → Para currículo completo, favor entrar em contato!
+                            → Psicólogas de RH, xô!! Vaza!! 
+                            Não tenho softskill suficiente pra isso.
+                            Vão caçar um gato pra criar!!
+                        </Text>
+                        <Text className={styles.despedida}>
+                            → Peço desculpas, coringuei. Agora, com sua licença, preciso ir embora.
+                            Antes, porém, o meu boa noite amável.
                         </Text>
                     </div>
                 </div>

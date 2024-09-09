@@ -10,13 +10,29 @@ export default function Contato() {
                 <div className={styles.conteudo}>
                     <div className={styles.estiloTitulo}>
                         <Text>
-                            → Entre em contato por e-mail, inicialmente! <br/>
-                            Podemos marcar contato por telefone ou videochamada. (:
+                            → Olá! Tudo joia?<br/>
+                        </Text>
+                    </div>
+                    <div>
+                        <Text className={styles.estiloDescricao}>
+                        • Inicialmente, fiz esse site pensando em demonstrar conhecimento, a fim de conseguir oportunidades mais facilmente.
+                        </Text>
+                        <Text className={styles.estiloDescricao2}>
+                        • Porém, o resultado foi que hoje eu não quero nem saber do setor privado, optei pelo caminho do concurso público 
+                        e todos sabem que isso, na tecnologia, é equivalente a ser um Lorde Sith. Sinceramente, estou adorando. >=)
+                        </Text>
+                        <Text className={styles.estiloDescricao}>
+                        (Paguem seus impostos ao império, rebeldes! Se não pagar, eu faço concurso pra fiscal!)
+                        </Text>
+                    </div>
+                    <div className={styles.estiloTitulo}>
+                        <Text>
+                            → Se alguém quiser falar comigo, eu estou coringando mas não mordo (ainda)<br/>
                         </Text>
                     </div>
                     <div>
                         <Text className={styles.estiloTexto}>
-                            • Email: <a className={styles.links} href = "mailto: marcelocarbonera@live.com">marcelocarbonera@live.com</a>
+                            • Email: <a className={styles.links} href="mailto: marcelocarbonera@live.com">marcelocarbonera@live.com</a>
                         </Text>
                     </div>
                     <div>

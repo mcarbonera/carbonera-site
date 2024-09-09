@@ -22,7 +22,22 @@
 .estiloTexto {
     font-size: 1.3rem;
     color: #0F0;
-    margin-top: 20px;
     text-align: left;
     margin: 0px;
+}
+
+.estiloDescricao {
+    font-size: 1.1rem;
+    color: rgb(227, 126, 255);
+    margin-bottom: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.estiloDescricao2 {
+    font-size: 1.1rem;
+    color: #ffc8f7;
+    margin-bottom: 10px;
+    text-align: justify;
+    text-justify: inter-word;
 }

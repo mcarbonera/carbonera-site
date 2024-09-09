@@ -13,7 +13,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className={styles.footerText, styles.autorGostosao}>
-                Marcelo G. Carbonera
+                Marcelo Gervazoni Carbonera
             </div>
         </div>
     )
