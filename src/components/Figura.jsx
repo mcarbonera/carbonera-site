@@ -5,7 +5,6 @@ import React from 'react'
 import styles from '../styles/Figura.module.css'
 
 export default function Figura(props) {
-  
   const generalAnimator = { duration: { enter: 200, exit: 200 } };
   const [activate, setActivate] = React.useState(true);
 

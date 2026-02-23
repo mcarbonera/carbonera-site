@@ -10,7 +10,7 @@ export default function Contato() {
                 <div className={styles.conteudo}>
                     <div className={styles.estiloTitulo}>
                         <Text>
-                            → Olá! Tudo joia?<br/>
+                            → Olá! Tudo jóia?<br/>
                         </Text>
                     </div>
                     <div>
@@ -18,16 +18,12 @@ export default function Contato() {
                         • Inicialmente, fiz esse site pensando em demonstrar conhecimento, a fim de conseguir oportunidades mais facilmente.
                         </Text>
                         <Text className={styles.estiloDescricao2}>
-                        • Porém, o resultado foi que hoje eu não quero nem saber do setor privado, optei pelo caminho do concurso público 
+                        • Porém, esse ambiente perdeu um pouco do sentido, já que optei pelo caminho do concurso público,
                         e todos sabem que isso, na tecnologia, é equivalente a ser um Lorde Sith. Sinceramente, estou adorando. &gt;=)
                         </Text>
                         <Text className={styles.estiloDescricao}>
-                        (Paguem seus impostos ao império, rebeldes! Se não pagar, eu faço concurso pra fiscal!)
-                        </Text>
-                    </div>
-                    <div className={styles.estiloTitulo}>
-                        <Text>
-                            → Se alguém quiser falar comigo, eu estou coringando mas não mordo (ainda)<br/>
+                        → Se alguém quiser falar comigo, eu estou coringando mas ainda não mordo.<br/>
+                        → E nem comecei a jogar pedra nas pessoas da rua!<br/>
                         </Text>
                     </div>
                     <div>
@@ -39,7 +35,7 @@ export default function Contato() {
                         <Text className={styles.estiloTexto}>
                             • GitHub: <a className={styles.links} href="https://github.com/mcarbonera">https://github.com/mcarbonera</a>
                         </Text>
-                    </div>  
+                    </div>
                 </div>
             </Animator>
         </ArwesThemeProvider>

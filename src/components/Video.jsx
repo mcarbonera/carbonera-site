@@ -8,7 +8,7 @@ export default function Video(props) {
     const generalAnimator = { duration: { enter: 200, exit: 200 } };
 
     return (
-        <ArwesThemeProvider>    
+        <ArwesThemeProvider>
             <StylesBaseline />
             <AnimatorGeneralProvider animator={generalAnimator}>
                 <Animator animator={{ manager: 'stagger', root: true }}>

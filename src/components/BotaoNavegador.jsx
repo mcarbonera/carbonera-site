@@ -5,16 +5,16 @@ import { Animator } from '@arwes/animation';
 import { ArwesThemeProvider, StylesBaseline, Text, Button, FrameHexagon } from '@arwes/core'
 import { useRouter } from 'next/router';
 
-React.useLayoutEffect = React.useEffect 
+React.useLayoutEffect = React.useEffect
 
 import { withRouter } from 'next/router';
 
 export default withRouter(function BotaoNavegador(props) {
-    
+
     const ROOT_FONT_FAMILY = '"Titillium Web", sans-serif';
 
     const [activate, setActivate] = useState(true);
-    
+
     useEffect(() => {
         const timeout = setTimeout(() => setActivate(!activate), 2000);
         return () => clearTimeout(timeout);

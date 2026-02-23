@@ -22,7 +22,6 @@ export default function Header() {
             destino: "/interesses",
         }
     ]
-    
     return (
         <header className={styles.navegador}>
             {opcoesBotoes.map((elem, it) => {

@@ -10,15 +10,15 @@ const FourOhFour = () => {
 
   	return (
 		<div className={styles.container}>
-			<Image 
+			<Image
 				width={'274'}
 				height={'274'}
-				className={styles.imagem} 
+				className={styles.imagem}
 				src="/notFound.jpg"
 				alt="NotFound">
 			</Image>	
 			<div className={styles.text}>
-				<ArwesThemeProvider>    
+				<ArwesThemeProvider>
 					<StylesBaseline />
 					<AnimatorGeneralProvider animator={generalAnimator}>
 						<Animator animator={{ manager: 'stagger', root: true }}>
