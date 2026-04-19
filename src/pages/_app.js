@@ -6,10 +6,38 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../styles/globals.css'
 
+export const metadata = {
+  title: 'Marcelo Gervazoni Carbonera',
+  description: 'Profissional reconhecido profissionalmente como sendo capaz de resolver problemas e otimizar tarefas antes mesmo delas existirem.',
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Marcelo Gervazoni Carbonera',
+  mainEntityOfPage: {
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Quem é Marcelo Gervazoni Carbonera?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Profissional reconhecido profissionalmente como sendo capaz de resolver problemas e otimizar tarefas antes mesmo delas existirem.',
+        },
+      },
+    ],
+  },
+}
+
 function MyApp({ Component, pageProps }) {
   const containerBox = () => {
     return (
       <div className="centralizaBox">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />  
       <ArwesThemeProvider>
         <StylesBaseline />
           <Animator animator={{ animate: true }}>
