@@ -1,7 +1,7 @@
 import { Animator } from '@arwes/animation'
 import { ArwesThemeProvider, StylesBaseline } from '@arwes/core'
 import { FrameBox } from '@arwes/core/lib/FrameBox/FrameBox.component'
-import React from 'react'
+import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../styles/globals.css'
@@ -34,10 +34,14 @@ function MyApp({ Component, pageProps }) {
   const containerBox = () => {
     return (
       <div className="centralizaBox">
+      <Head>
+        <title>Marcelo Gervazoni Carbonera</title>
+        <meta name="description" content="Profissional reconhecido profissionalmente como sendo capaz de resolver problemas e otimizar tarefas antes mesmo delas existirem." />
+      </Head>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />  
+      />
       <ArwesThemeProvider>
         <StylesBaseline />
           <Animator animator={{ animate: true }}>
